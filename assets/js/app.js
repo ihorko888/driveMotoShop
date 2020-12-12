@@ -3017,12 +3017,6 @@ var RateYo=function(){"use strict";function t(e){return(t="function"==typeof Sym
 
 
 $(function () {
-
-    $('.banner__slider').slick({
-        dots: true,
-        prevArrow: '<button class="banner__slider-btn banner__arrow-left"><img src="assets/img/banner/arrow-left.svg" alt=""></button>',
-        nextArrow: '<button class="banner__slider-btn banner__arrow-right"><img src="assets/img/banner/arrow-right.svg" alt=""></button>'
-    });
     
     $('.products-slider').slick({
         slidesToShow: 4,
